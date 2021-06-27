@@ -67,6 +67,8 @@ const FunctionalComponentDemo = () => {
     );
 };
 
+export default FunctionalComponentDemo;
+
 const HelloWorldFatArrow = () => {
     return (
         <div>
@@ -118,4 +120,3 @@ const HelloWorld = () => {
     );
 };
 
-export default FunctionalComponentDemo;

@@ -21,10 +21,10 @@ const JSXRules = () => {
                 </dl>
                 <hr />
                 <Row>
-                    <Col xs="6">
+                    <Col sm="6">
                         <NormalComponent />
                     </Col>
-                    <Col xs="6">
+                    <Col sm="6">
                         <CreateElementComponent />
                     </Col>
                 </Row>
@@ -32,6 +32,8 @@ const JSXRules = () => {
         </div>
     );
 };
+
+export default JSXRules;
 
 const NormalComponent = () => {
     return (
@@ -66,11 +68,9 @@ const CreateElementComponent = () => {
             "img",
             {
                 src: "https://cdn-images-1.medium.com/max/1200/1*jJZHFQmhkq_7ohn18KrMhA.png",
-                width: "100%",
-                height: "255px"
+                width: "100%"
             },
             null
         )
     );
 };
-export default JSXRules;
