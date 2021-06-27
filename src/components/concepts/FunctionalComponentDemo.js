@@ -15,7 +15,7 @@ const FunctionalComponentDemo = () => {
     return (
         <div className="main">
             <div className="mainDiv func-comp">
-                <h1 className="func-comp">Functional Component</h1>
+                <h1 className="func-comp">Functional Components</h1>
                 <div>
                     Functional Components are the primary tool in React to build
                     a small, modular piece of your page.
@@ -53,7 +53,7 @@ const FunctionalComponentDemo = () => {
                     More information
                 </Button>
                 <hr />
-                <h1>Functional Syntax vs Arrow Function</h1>
+                <h1 className="func-comp">Functional Syntax vs Arrow Function</h1>
                 <Row>
                     <Col xs="6">
                         <HelloWorldFatArrow />
@@ -80,7 +80,7 @@ const HelloWorldFatArrow = () => {
                 <CardBody>
                     <CardTitle tag="h5">Fat Arrow Function</CardTitle>
                     <CardSubtitle tag="h6" className="mb-2 text-muted">
-                        a JS Library
+                        A JS Library
                     </CardSubtitle>
                     <CardText>
                         <pre>const HelloWorld = () =&gt;</pre>{" "}
