@@ -96,3 +96,6 @@ dd {
     color: white;
 }
 
+.no-style {
+    list-style-type: none;
+}

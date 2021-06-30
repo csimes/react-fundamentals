@@ -9,7 +9,7 @@ This app is intended to be a starter/tutorial app for your upcoming project and 
                 </p>
                 <hr />
                 <h1>Important Notes</h1>
-                <ul>
+                <ul className="no-style">
                     <li>Being component based, you can move on to the next module</li>
                     <li>The styling is intentionally left bland in some spots. Just a sandbox.</li>
                     <li>At this phase, this site is not yet responsive.</li>
